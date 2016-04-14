@@ -1,0 +1,14 @@
+* A Toy POS tagger
+POS tagging using Genetic Algorithm
+* Play REPL
+#+BEGIN_SRC sh
+> stack build
+> stack exec pos-tagger-exe I love you
+
+# or
+
+> stack repl
+λ ppi "I love you"
+#+END_SRC
+* Corpus 
+https://catalog.ldc.upenn.edu/LDC99T42
